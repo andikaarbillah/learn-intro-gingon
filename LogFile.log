@@ -10,11 +10,21 @@
 [GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
 Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
 [GIN-debug] Listening and serving HTTP on :8080
-127.0.0.1 - [28 Dec 23 23:45 WIB] POST /videos 400 972.324µs
-[GIN] 2023/12/28 - 23:45:00 | 400 |     1.06749ms |       127.0.0.1 | POST     "/videos"
-127.0.0.1 - [28 Dec 23 23:46 WIB] POST /videos 400 288.453µs
-[GIN] 2023/12/28 - 23:46:36 | 400 |     332.763µs |       127.0.0.1 | POST     "/videos"
-127.0.0.1 - [28 Dec 23 23:46 WIB] POST /videos 200 709.697µs
-[GIN] 2023/12/28 - 23:46:54 | 200 |     1.09147ms |       127.0.0.1 | POST     "/videos"
-127.0.0.1 - [28 Dec 23 23:47 WIB] GET /videos 200 2.420174ms
-[GIN] 2023/12/28 - 23:47:36 | 200 |    2.603107ms |       127.0.0.1 | GET      "/videos"
+127.0.0.1 - [29 Dec 23 05:23 WIB] POST /videos 400 1.119845ms
+[GIN] 2023/12/29 - 05:23:35 | 400 |    1.234184ms |       127.0.0.1 | POST     "/videos"
+127.0.0.1 - [29 Dec 23 05:23 WIB] GET /videos 200 145.758µs
+[GIN] 2023/12/29 - 05:23:45 | 200 |     193.799µs |       127.0.0.1 | GET      "/videos"
+127.0.0.1 - [29 Dec 23 05:24 WIB] POST /videos 400 266.135µs
+[GIN] 2023/12/29 - 05:24:04 | 400 |     318.201µs |       127.0.0.1 | POST     "/videos"
+127.0.0.1 - [29 Dec 23 05:24 WIB] POST /videos 200 294.286µs
+[GIN] 2023/12/29 - 05:24:36 | 200 |     514.822µs |       127.0.0.1 | POST     "/videos"
+127.0.0.1 - [29 Dec 23 05:24 WIB] GET /videos 200 163.033µs
+[GIN] 2023/12/29 - 05:24:52 | 200 |     211.413µs |       127.0.0.1 | GET      "/videos"
+127.0.0.1 - [29 Dec 23 05:25 WIB] POST /videos 400 227.504µs
+[GIN] 2023/12/29 - 05:25:25 | 400 |     272.014µs |       127.0.0.1 | POST     "/videos"
+127.0.0.1 - [29 Dec 23 05:25 WIB] POST /videos 400 679.71µs
+[GIN] 2023/12/29 - 05:25:38 | 400 |     746.622µs |       127.0.0.1 | POST     "/videos"
+127.0.0.1 - [29 Dec 23 05:25 WIB] POST /videos 400 314.845µs
+[GIN] 2023/12/29 - 05:25:46 | 400 |     369.012µs |       127.0.0.1 | POST     "/videos"
+127.0.0.1 - [29 Dec 23 05:25 WIB] POST /videos 200 176.192µs
+[GIN] 2023/12/29 - 05:25:57 | 200 |     246.159µs |       127.0.0.1 | POST     "/videos"

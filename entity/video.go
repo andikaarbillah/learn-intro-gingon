@@ -8,7 +8,7 @@ type Persons struct {
 }
 
 type Video struct {
-	Tittle      string  `json:"tittle" binding:"min=2,max=10"`
+	Tittle      string  `json:"tittle" binding:"min=2,max=100" validate:"is-cool"`
 	Description string  `json:"description" binding:"max=20"`
 	URL         string  `json:"url" binding:"required,url"`
 	Author      Persons `json:"author" binding:"required"`
